@@ -1,0 +1,6 @@
+(executable
+ (public_name chinese_dag)
+ (name main)
+ (libraries chinese_dag uutf)
+ (preprocess
+  (pps ppx_jane)))
